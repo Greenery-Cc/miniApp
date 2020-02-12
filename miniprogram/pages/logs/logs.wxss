@@ -1,0 +1,94 @@
+/* pages/logs/logs.wxss */
+
+page {
+  width: 100%;
+  height: 100%;
+}
+
+.wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  flex: 1;
+  background:#fff
+}
+
+.hh{
+  width:100%;
+  display: inline-block;
+  line-height: 100rpx;
+  text-align: center; 
+  margin-bottom:30rpx;
+  font-size: 40rpx;
+}
+
+.header>.time {
+  font-size: 44rpx;
+  text-align: center;
+  margin-bottom:60rpx;
+}
+
+.header>.btns {
+  width: 100%;
+  height: 100rpx;
+  padding: 0 15%;
+  display: flex;
+  justify-content: space-around;
+  box-sizing: border-box;
+  margin: 60rpx 0;
+}
+
+.header>.btns>.butt {
+  border: 1rpx solid #ccc;
+  padding: 0 20rpx;
+  border-radius: 10rpx;
+  line-height: 100rpx;
+}
+.header>.dc{
+  width:200rpx;
+  height:400rpx;
+  border:3px #0f0 solid;
+  margin: 100rpx auto 0;
+  position: relative;
+  /* border-radius: 5rpx 5rpx 0 0; */
+}
+.header>.dc .line{
+  width:50rpx;
+  height: 30rpx;
+  border:2px #ccc solid;
+  position: absolute;
+  top:-35rpx;
+  left:50%;
+  margin-left: -25rpx;
+  border-bottom: none;
+  border-radius: 10rpx 10rpx 0 0;
+}
+.content {
+  width: 100%;
+  height: 80rpx;
+  background: #f3f3f3;
+  border-top: 1rpx #ccc solid;
+  display: flex;
+}
+
+.content>.icon {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content>.icon>.iconfont {
+  font-size: 40rpx;
+  color: #666;
+}
+
+.content>.icon>.txt {
+  font-size: 30rpx;
+  margin-top: 3rpx;
+}

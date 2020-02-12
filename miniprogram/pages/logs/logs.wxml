@@ -1,0 +1,41 @@
+<!--pages/logs/logs.wxml-->
+<view class="wrap">
+  <view class="header">
+    <view class="hh">中国人均寿命900月</view>
+    <view class="time">
+      {{year}} 年 {{mouth}} 月至今 {{mytimes}}个月
+    </view>
+    <view class="btns ">
+      <picker mode="date" class="butt" fields="month" bindchange="chagtime">
+        换一个日期
+      </picker>
+      <text class="butt" bindtap="clear"> 清除记录 </text>
+    </view>
+
+    <view class="dc">
+        <view class="line"></view>
+    </view>
+  </view>
+  <view class="content">
+     <view class="icon ">
+      <text class="iconfont icon-shouye1 "></text>
+      <text class="txt ">首页</text>
+    </view>
+    <view class="icon ">
+      <text class="iconfont icon-shijian "></text>
+      <text class="txt ">年月日 </text>
+    </view>
+    <view class="icon ">
+      <text class="iconfont icon-liebiao "></text>
+      <text class="txt "> 日子 </text>
+    </view>
+    <view class="icon ">
+      <text class="iconfont icon-zanting "></text>
+      <text class="txt ">静思</text>
+    </view>
+    <view class="icon ">
+      <text class="iconfont icon-xiaolian "></text>
+      <text class="txt ">关于</text>
+    </view>
+  </view>
+</view>
