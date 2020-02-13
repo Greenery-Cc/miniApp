@@ -25,9 +25,9 @@ Page({
   },
   onShow: function () {
     this.settime();
+    this.clear();
   },
   settime: function () {
-    console.log;
     var _a = this.data, year = _a.year, mouth = _a.mouth;
     var oldtime = mouth === "00" ? new Date(year).getTime() : new Date(year + "-" + mouth).getTime();
     var newtime = new Date(new Date().getFullYear() + "-" + (new Date().getMonth() + 1)).getTime();

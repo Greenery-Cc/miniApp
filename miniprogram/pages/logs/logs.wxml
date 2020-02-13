@@ -16,7 +16,7 @@
         <view class="line"></view>
     </view>
   </view>
-  <view class="content">
+  <!-- <view class="content">
      <view class="icon ">
       <text class="iconfont icon-shouye1 "></text>
       <text class="txt ">首页</text>
@@ -37,5 +37,5 @@
       <text class="iconfont icon-xiaolian "></text>
       <text class="txt ">关于</text>
     </view>
-  </view>
+  </view> -->
 </view>
